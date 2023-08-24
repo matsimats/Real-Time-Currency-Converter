@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Konwerter walut w czasie rzeczywistym</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2>Konwerter walut w czasie rzeczywistym</h2>
+    <div id="exchangeRates">
+      <div>USD: <span id="usdRate"></span> PLN</div>
+      <div>EUR: <span id="eurRate"></span> PLN</div>
+    </div>
+    <button id="convertCurrency">Przelicz walutę</button>
+    <button id="undoConversion" style="display: none;">Cofnij przeliczenie</button>
+    <div id="conversionMessage" style="display: none;"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

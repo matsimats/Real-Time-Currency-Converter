@@ -1,0 +1,45 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  text-align: center;
+  background-color: #202020;
+  padding: 20px;
+  color: #c9c9c9;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#exchangeRates {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #007e69;
+  border: none;
+  color: rgb(228, 228, 228);
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#conversionMessage {
+  font-size: 16px;
+  margin-top: 20px;
+}
